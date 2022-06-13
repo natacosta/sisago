@@ -1,0 +1,244 @@
+
+
+
+*{
+    padding: 0%;
+    margin: 0%; 
+    box-sizing: border-box;   
+    font-family: 'Noto Sans JP', sans-serif; 
+}
+
+*{
+    --cor1: black;
+    --cor2:white;
+    --cor3: #00A69A;
+    --cor4:#5F5F5F;
+    
+}
+
+
+.background{
+
+    background-image: url("./imagens/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    filter: grayscale(0.5);
+    position: fixed;
+    
+}
+
+.form{
+
+    background-color: var(--cor2);
+    width: 357px;
+    height: 525px ;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+.formContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -514px;
+    margin-right: 65px;
+    
+}
+
+.filter{
+
+    position:absolute;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top , rgba(0, 0, 0, 0.979), rgba(107, 107, 107, 0))
+}
+
+/* FORM_TITLE */
+
+.formTitleAccess{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+/* INPUT */
+
+
+.input1, .input2, .input3{
+
+    width: 279px;
+    height: 37px;
+    border-radius: 10px;
+    border: 1px solid var(--cor4);
+    
+}
+
+.input1{
+    margin-top: 15px;
+    background-image: url(./imagens/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 42px;;
+}
+
+.input2{
+    margin-top: 15px;
+    background-image: url(./imagens/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 42px;
+}
+
+.input3{
+    margin-top: 15px;
+    background-image: url(./imagens/Vector\ \(2\).png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 42px;
+}
+
+.imgSenha{
+
+    background-image: url(imagens/Vector\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 21px;
+    right: 118px;
+    top: 337px;
+    position: fixed;
+    
+    
+}
+
+/* BOTÃO */
+
+.btn{
+    
+    width: 279px;
+    height: 39px;
+    border-radius: 5px;
+    background-color: var(--cor3);
+    color: var(--cor2);
+
+    border: none;
+}
+
+/*FOOTER FORM*/
+
+.formSolicitaion{
+
+    font-weight: 300;
+    color: var(--cor4);
+    padding-top:10px ;
+} 
+
+.formForget{
+    text-decoration: none;
+    color: var(--cor3);
+    margin-top: 7px;
+    margin-left: 138px;
+    font-size: small;
+    letter-spacing: -0.5px;
+    
+}
+
+.footerForm{
+
+    color: var(--cor3);
+    font-size: 20px;
+}
+
+/* LOGO, TEXTOS . SOCIAL */
+
+
+.containerText{
+
+    max-width: 400px;
+    display: flex;
+    margin-top: 110px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 190px;
+    
+}
+
+.logo{
+
+    background-image: url(imagens/Group\ 20.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 433px;
+    height: 194px;
+    margin-top: -129px;
+    
+}
+
+.textSlogan{
+    color: var(--cor2);
+    padding-top: 160px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.textDescriptive{
+    color: var(--cor2);
+    padding-top: 30px;
+    text-align: center;
+    font-size: 22px;
+}   
+
+
+.social{
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top:20px ;
+}
+
+.faceboock{
+    background-image: url(./imagens/facebook\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.instagran{
+    background-image: url(./imagens/instagram\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.whatsapp{
+    background-image: url(./imagens/whatsapp\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    
+}
+
+
+    
+
+
